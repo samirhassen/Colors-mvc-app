@@ -189,11 +189,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samir\\Source\\repos\\Angular-colors\\Angular-colors.csproj",
-      "projectName": "Angular-colors",
-      "projectPath": "C:\\Users\\samir\\Source\\repos\\Angular-colors\\Angular-colors.csproj",
+      "projectUniqueName": "C:\\Users\\samir\\Source\\repos\\Colors_store\\Colors_store.csproj",
+      "projectName": "Colors_store",
+      "projectPath": "C:\\Users\\samir\\Source\\repos\\Colors_store\\Colors_store.csproj",
       "packagesPath": "C:\\Users\\samir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samir\\Source\\repos\\Angular-colors\\obj\\",
+      "outputPath": "C:\\Users\\samir\\Source\\repos\\Colors_store\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

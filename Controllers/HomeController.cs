@@ -4,12 +4,12 @@ using System.Diagnostics;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Angular_colors.Models;
+using Colors_store.Models;
 using System.Data.SQLite;
 using Dapper;
 using System.IO;
 
-namespace Angular_colors.Controllers
+namespace Colors_store.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Angular_colors.Models
+namespace Colors_store.Models
 {
     public class ColorsModel : ViewModelBase
     {

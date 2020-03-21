@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Angular_colors.Models
+namespace Colors_store.Models
 {
     public class ViewModelBase
     {

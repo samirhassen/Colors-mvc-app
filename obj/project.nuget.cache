@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rViSGCmREi2F1mZ4LZRQdo5OV4PtYf0LS1s8R0443iPvLDcTGGsIQMPU0zUQxD2FSLAI6GGTHsqaOXNlwleEUA==",
+  "dgSpecHash": "N+YlVS1YC4sr4Z7bSSsZdpftBqwKweOUAO+rlG+h/0yQnRJi+ohgrgxGDRlSl+AJzMu7iPJEuS3J2w2lLwQ7dw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\samir\\Source\\repos\\Angular-colors\\Angular-colors.csproj",
+  "projectFilePath": "C:\\Users\\samir\\Source\\repos\\Colors_store\\Colors_store.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\samir\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",
     "C:\\Users\\samir\\.nuget\\packages\\system.data.sqlite.core\\1.0.112\\system.data.sqlite.core.1.0.112.nupkg.sha512",

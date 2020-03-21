@@ -1,6 +1,6 @@
 using System;
 
-namespace Angular_colors.Models
+namespace Colors_store.Models
 {
     public class ErrorViewModel
     {
