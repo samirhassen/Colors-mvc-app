@@ -1,0 +1,40 @@
+﻿@model ColorsModel
+@{
+    ViewData["Title"] = "Home Page";
+    List<ColorsModel> data = ViewData["data"] as List<ColorsModel>;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To Colors Shopping</h1>
+    
+    <div id="colors-table">
+        <div class="colors-table-header">
+            <div class="colors-table-cell">
+                <h3>Color</h3>
+            </div>
+            <div class="colors-table-cell">
+                <h3>Color Code</h3>
+            </div>
+            <!-- <div class="colors-table-cell"><h3>Additional Info</h3></div> -->
+        </div>
+        <div id="colors-table-body">
+            @foreach (ColorsModel item in data)
+            {
+                <div class="colors-table-row navbar-nav flex-grow-1" data-order="0">
+                    <div class="colors-table-cell nav-item" style="background-color:@item.Color">
+                        <a class="nav-link text-dark">@item.Color</a>
+                    </div>
+                    <div class="colors-table-cell nav-item">
+                        <a class="nav-link text-dark">@item.ColorCode</a>
+                    </div>
+                    <div class="full-desc">
+                        <div class="colors-table-cell nav-item clear" style="background-color:@item.Color">
+                            <a class="nav-link text-dark">@item.Color</a>
+                        </div>
+                        <p><span>Description:</span> @item.Info</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
